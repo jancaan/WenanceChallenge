@@ -111,7 +111,7 @@ Response:
 		}
 	]
 
-#####Acerca de la solución
+##### Acerca de la solución
 Para consultar cada 10 segundos los valores del bitcoin obtenidos, se utiliza un scheduler de Spring (está en BitcoinSchedule).
 Las peticiones son recibidas por BitcoinController, el mismo se comunica con BitcoinService que posee la lógica de negocio, y este se comunica con la capa de acceso a datos (a través de BitcoinDAO).
 Los datos que retornan los servicios son DTOs.
@@ -119,4 +119,4 @@ Para realizar la transformacion de objetos del modelo a DTO y viceversa se utili
 La configuración se encuentra en los application.properties tanto en el src (para la ejecución de la app en entorno local) como en test (para los test creados con JUnit y MockMvc).
 
 
-#####Mail de contacto: [jancaan@gmail.com](mailto:jancaan@gmail.com?subject=[Wenance%20Challenge])
+##### Mail de contacto: [jancaan@gmail.com](mailto:jancaan@gmail.com?subject=[Wenance%20Challenge])
