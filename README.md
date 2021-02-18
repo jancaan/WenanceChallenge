@@ -24,7 +24,7 @@ Indicaciones:
 
 ## URLs:
 
-	1)Repositorio github (código fuente): https://github.com/jancaan/bitcoin
+	1)Repositorio github (código fuente): https://github.com/jancaan/WenanceChallenge
 	2)Swagger (documentación): http://localhost:8080/swagger-ui.html
 	3)Consola de H2 (usuario:sa password: ): http://localhost:8080/h2-console/ 
 
